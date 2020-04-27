@@ -15,8 +15,8 @@
                 <div class="p-5">
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Form Login</h1>
-                    <?php if ($this->session->flashdata('password_salah')) {
-                    	echo $this->session->flashdata('password_salah');
+                    <?php if ($this->session->flashdata('pesan')) {
+                    	echo $this->session->flashdata('pesan');
                     } ?>
                   </div>
                   <form class="user" action="<?= base_url('admin/auth/login') ?>" method="post">
